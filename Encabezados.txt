@@ -1,0 +1,45 @@
+4.1.3  LC_SUM_PUB AND LC_DAT_PUB COLUMN MAPS
+--------------------------------------------
+
+In the LC_DAT_PUB file, there is a blank line between the last detail line for a
+given object and the Summary line for the following object.
+
+
+Field      Header   Format        Pos   Notes
+--------------------------------------------------------------------------------
+Number     NUMBER   I7            1-7   Blank if no MPC assigned number
+EntryFlag  (EF?)    A1              9   * new record since last pubic release (see notes)
+Name       NAME     A30         11-40   Summary: Name or designation
+                                        Details: Publication reference
+Desig      DESIG    A20         42-61   Summary: MPC Designation (see notes)
+                                        Details: Appxoimate mid-date of observations
+Family     FAM      A8          63-70   Family/Group association
+CSource    (C?)     A1             72   Source of taxonomic class
+Class      CLASS    A5          74-78   Taxonomic class
+DSource    (D?)     A1             80   Source of diameter
+DFlag      (DF?)    A1             82   Diameter flag
+Diameter   DIA.     F9.4        84-92   in km
+HSource    (HS?)    A1             94   Source of H value
+H          H        F5.2       96-100   H (absolute magnitude)
+HBand      (HB?)    A2            102   BVRI,S(UGRIZ), V if Blank
+ASource    (AS?)    A1            105   Source of albedo value
+AlbedoFlag (AlF?)   A1            107   Albedo qualifier (> or <)
+Albedo     A        F6.4      109-114   Albedo
+PFlag      (PF?)    A1            116   Period qualifier
+Period     PERIOD   F13.8     118-130   Period, in hours
+PDescrip   P DESC   A15       132-146   Period description if not numeric value,
+                                        e.g., long
+AmpFlag    (AmF?)   A1            148   Amplitude flag
+AmpMin     AMIN     F4.2      150-153   Minimum amplitude of a range.   (See Notes)
+AmpMax     AMAX     F4.2      155-158   Maximum amplitude of a range OR (See Notes)
+                                        amplitude if no range.
+U          U        A2        160-161   Lightcurve Quality
+Notes      NOTES    A5        163-167   Qualifying flags for lightcurve record
+Binary     BIN      A3        169-171   Binary Flag
+Private    PRI      A3        173-175   Y = Unpublished, contact named observer
+                                        to request details
+Pole       SAM      A3        177-179   Spin Axis and/or Shape Model available
+
+SparseData SD	    A2        181-182   Y = Result based on sparse data (see Sec. 5)
+
+WideField  WF       A2        184-185   Y = Result based on wide field data (see Sec. 5)

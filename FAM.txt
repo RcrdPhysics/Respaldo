@@ -1,0 +1,33 @@
+Blank   No group or family determined
+BAP     Baptistina
+CEN     Centaur
+CEN-C   Centaur - comet behavior (coma and/or tail)
+CLO     Comet-like orbit
+CMT     Comet
+EOS     Eos
+ERI     Erigone
+EUN     Eunomia
+FLOR    Flora
+H       Hungaria
+HIL     Hilda
+KAR     Karin
+KOR     Koronis
+MB-I    Main belt - inner
+MB-IC   Main belt - inner, comet behavior (coma and/or tail)
+MB-M    Main belt - middle
+MB-MC   Main belt - middle, comet behavior (coma and/or tail)
+MB-O    Main belt - outer
+MB-OC   Main belt - outer, comet behavior (coma and/or tail)
+MC      Mars crosser
+NEA     NEA (Apollo/Aten/Amor)
+NEA-C   NEA (Apollo/Aten/Amor), comet behavior (coma and/or tail)
+NYSA    Nysa
+PHO     Phocaea
+THM     Themis
+TNO     TNO/KBO
+TR-J    Trojan - Jupiter
+TR-M    Trojan - Mars
+TR-N    Trojan - Neptune
+TR-S    Trojan - Saturn
+TR-U    Trojan - Uranus
+V       Vestoid

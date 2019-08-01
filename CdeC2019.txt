@@ -1,0 +1,12 @@
+Temperatura, precipitación, evaporización
+
+MODIS, sentinel, google earth engine,
+
+descargar imágenes
+
+
+resolución temporal y espectral
+
+comparacion dron-satelite
+
+preparar material para explicar el redshift o blueshift
